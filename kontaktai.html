@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Egidijus Nekliajevas - Apie</title>
-    </head>
-    <body>
-    <header>
-        <h1>Apie</h1>
-    </header>
-    <section>
-        <img src="/img/logo.png" alt="logo">
-        <nav>
-            <a href="/">Apie</a><br>
-            <a href="/darbai.html">Darbai</a><br>
-            <a href="/cv.html">CV</a><br>
-            <a href="/kontaktai.html">Kontaktai</a>
-        </nav>
-    </section>
-    <main>
-
+<head>
+    <meta charset="UTF-8">
+    <title>Egidijus Nekliajevas - Kontaktai</title>
+</head>
+<body>
+<header>
+    <h1>Kontaktai</h1>
+</header>
+<section>
+    <img src="/img/logo.png" alt="logo">
+    <nav>
+        <a href="/">Apie</a><br>
+        <a href="/darbai.html">Darbai</a><br>
+        <a href="/cv.html">CV</a><br>
+        <a href="/kontaktai.html">Kontaktai</a>
+    </nav>
+</section>
+<main>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eos libero vitae? Blanditiis corporis delectus,
+    doloribus dolorum eius eos esse facilis laboriosam, non optio, quaerat quos ratione velit voluptas voluptatibus?
+    <form action="siusti.php" method="post">
         <div>
-            <h2>Egidijus Nekliajevas</h2>
-            <img src="/img/profile.png" alt="Egidijus Nekliajevas">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam aperiam aut consectetur dolor incidunt ipsa, laudantium maiores molestias nihil optio perspiciatis quaerat quasi reprehenderit similique soluta tempore temporibus vel!
+            <label for="fn">Tavo vardas</label>
+            <input type="text" name="vardas" id="fn">
+            <br>
+            <label for="em">Tavo el. paštas</label>
+            <input type="email" name="pastas" id="em">
         </div>
-    </main>
+        <div>
+                <textarea name="zinute"  cols="30" rows="10" placeholder="Žinutė man..."></textarea>
+        </div>
+        <input type="submit" value="SEND">
+    </form>
+</main>
 
-    <footer>
-        &copy; 2019 Visos teisės saugomos
-    </footer>
+<footer>
+    &copy; 2019 Visos teisės saugomos
+</footer>
 
-    </body>
+</body>
 </html>
