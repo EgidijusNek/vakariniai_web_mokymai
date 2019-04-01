@@ -1,0 +1,79 @@
+body{
+    background-color: #74ecff;
+    color: blue;
+}
+.profilio_foto{
+    height: 200px ;
+    width: 200px;
+    border-radius: 50%;
+}
+h1{
+
+    font-size: 30px;
+}
+
+.irasas{
+    margin: 20px 100px 50px 100px;
+    text-align: justify;
+    font-size: 20px;
+    color: chocolate;
+}
+h4{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+.tekstas{
+    margin-right: 200px;
+    padding-top: 15px;
+    font-family: Arial;
+}
+header{
+    background-color: red;
+    color: green;
+}
+section{
+    background-color: yellow;
+    font-color: black;
+}
+nav{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.foto{
+    background-color: #f8ff49;
+    color:red;
+    font-size: 35px;
+}
+.pagrindinis_tekstas{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: Arial;
+}
+footer{
+    background-color: green;
+    height: 150px;
+}
+#copy{
+    color: #f8ff49;
+    font-size: 25px;
+    text-align: end;
+    padding-right: 20px;
+    padding-top: 120px;
+}
+
+.run_foto{
+      height: 250px;
+      width: auto;
+  }
+
+.run_foto2{
+    height: 300px;
+    width: auto;
+}

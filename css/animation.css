@@ -1,0 +1,39 @@
+@keyframes bandymas {
+    from{opacity:0 }
+to{opacity:1}
+}
+body{
+    animation-name: bandymas;
+    animation-duration: 2s;
+    animation-fill-mode: forwards ;
+}
+
+@keyframes foto {
+    from{
+        opacity: 0.3 }
+    to{opacity:1}
+
+}
+.run_foto:hover{
+    animation-name: foto;
+    animation-duration: 6s;
+    opacity: 0.85;
+    animation-fill-mode: forwards ;
+}
+
+
+@keyframes stretch {
+
+}
+
+.run_foto2:hover {
+    animation-name: stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
