@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Egidijus Nekliajevas - Kontaktai</title>
-    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/dizainas.css">
 </head>
@@ -21,22 +21,33 @@
         <a href="/kontaktai.html">Kontaktai</a>
     </nav>
 </section>
-<main>
+<main class="container-fluid">
+    <div class="row">
+        <div class="col-12">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eos libero vitae? Blanditiis corporis delectus,
     doloribus dolorum eius eos esse facilis laboriosam, non optio, quaerat quos ratione velit voluptas voluptatibus?
-    <form action="siusti.php" method="post">
-        <div>
-            <label for="fn">Tavo vardas</label>
-            <input type="text" name="vardas" id="fn">
-            <br>
-            <label for="em">Tavo el. paštas</label>
-            <input type="email" name="pastas" id="em">
         </div>
-        <div>
+
+    <form action="siusti.php" method="post">
+        <div class="form-group">
+            <div class="col-6">
+            <label for="fn" title="display1">Tavo vardas</label>
+            <input type="text"class="form-control" name="vardas" id="fn">
+            </div>
+
+
+
+            <div class="col-6">
+            <label for="em">Tavo el. paštas</label>
+            <input type="email"  class="form-control" name="pastas" id="em">
+            </div>
+        </div>
+        <div class="form-group">
                 <textarea name="zinute"  cols="30" rows="10" placeholder="Žinutė man..."></textarea>
         </div>
-        <input type="submit" value="SEND">
+        <input class="btn btn-danger" type="submit" value="SEND">
     </form>
+    </div>
 </main>
 
 <footer>
