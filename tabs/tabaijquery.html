@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabai</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="tabai">
+    <button class="tab_linkas" onclick='keistiPsl("pirmas")'>Pirmas</button>
+    <button class="tab_linkas" onclick='keistiPsl("antras")'>Antras</button>
+    <button class="tab_linkas" onclick='keistiPsl("trecias")'>Trečias</button>
+    <button class="tab_linkas" onclick='keistiPsl("ketvirtas")'>Ketvirtas</button>
+</div>
+
+<div class="main">
+    <div id="pirmas"  class="tab_turinys active" onclick="kuris('pirmas')"><h2>Pirmas</h2>
+
+        <p>Pirmo paragrafo turinys</p>
+    </div>
+    <div id="antras"  class="tab_turinys"  ><h2>Antras</h2>
+
+        <p>Antras paragrafo turinys</p>
+    </div>
+    <div id="trecias"  class="tab_turinys" onclick="kuris('trecias')"><h2>Trečias</h2>
+
+        <p>Trečias paragrafo turinys</p>
+    </div>
+    <div id="ketvirtas"  class="tab_turinys" onclick="kuris(event, 'ketvirtas')"><h2>Ketvirtas</h2>
+
+        <p>Ketvirtas paragrafo turinys</p>
+    </div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

@@ -59,6 +59,8 @@ a{
 footer{
     background-color: green;
     height: 150px;
+    padding-top: 50px;
+    margin-top: 30px;
 }
 #copy{
     color: #f8ff49;
@@ -71,6 +73,7 @@ footer{
 .run_foto{
       height: 250px;
       width: auto;
+    padding-top: 50px;
   }
 
 .run_foto2{
